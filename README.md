@@ -8,3 +8,7 @@ Hence the function requires two vectors of the same dimensions. One would have v
 I am still working on error handling. It should include: wrong number of arguments (too few or too many) and wrong length for inputs. Not there yet.
 
 The rest seems to be working fine.
+
+In order to save the plot, just add this line after calling the function: 
+
+print -dpng -Sxsize "-S800,730" rose.png  % The size should bring a perfect circle output.
