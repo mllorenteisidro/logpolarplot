@@ -95,7 +95,7 @@ for i=1:length(ori);
     endif
   endif
 
-  % THE PLOT
+  % READY TO PLOT THE DATA ======
 
   plot([0,log10(longi(i))*sin(deg2rad(ori(i)))],[0,log10(longi(i))*cos(deg2rad(ori(i)))],'-r');
 
