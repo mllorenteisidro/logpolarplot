@@ -22,7 +22,7 @@ pkg load geometry % this is required to get circles working.
 % GENERAL PLOT PROPERTIES
 fn = 1;             % Figure number
 x = 200; y = 100;   % Screen location left-bottom corner of figure (pixels)
-w = 800; h = 716;   % width and height (I had to test for sqareness of the view
+w = 800; h = 716;   % width and height (I had to test for sqareness of the view)
 figure(fn, 'Position', [x y w h]);
 hold on;
 clear x y w h;
